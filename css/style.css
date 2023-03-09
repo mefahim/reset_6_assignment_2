@@ -201,3 +201,17 @@ nav {
     font-size: 40px;
     color: #424242;
 }
+/* sponspors section */
+.sponspors_top{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.sponspors_top h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.sponspors_bottom{
+    justify-content: space-between;
+    padding: 50px 0px;
+}
