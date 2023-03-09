@@ -9,6 +9,10 @@ body{
     max-width: 1190px;
     margin: auto;
 }
+section{
+    padding: 50px 0px;
+}
+
 .flex{
     display: flex;
 }
@@ -61,4 +65,27 @@ nav{
 }
 .hero-img img{
     width: 100%;
+}
+/* features section */
+.features-left{
+    width: 55%;
+}
+.features-left img{
+    width: 90%;
+}
+.features-right{
+    width: 45%;
+}
+.features .container{
+    align-items: center;
+}
+.features-title{
+    width: 70%;
+}
+.features-title h2{
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.features-button{
+    padding-top: 40px;
 }
