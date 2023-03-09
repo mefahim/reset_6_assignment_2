@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1190px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.py-4{
+    padding: 50px 0px;
+}
+.default-btn a {
+    text-decoration: none;
+    background: #FF900E;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+/* header part */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 0px;
+}
+nav{
+    justify-content: space-between;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 32px;
+    color: #131313;
+    font-weight: 700;
+}
+.menu a {
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: #424242;
+}
+.hero-section{
+    width: 50%;
+    margin: auto;
+}
+.hero-title h2{
+    font-size: 60px;
+    text-align: center;
+}
+.hero-discreption p{
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+}
+.hero-btn{
+    padding-top: 40px;
+    text-align: center;
+}
+.hero-img img{
+    width: 100%;
+}
