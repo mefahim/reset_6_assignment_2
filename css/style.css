@@ -125,6 +125,10 @@ nav {
 .feature_you_love_right{
     width: 50%;
 }
+.feature_you_love_left h2{
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
 
 .feature_you_love_left .title {
     width: 90%;
@@ -214,4 +218,12 @@ nav {
 .sponspors_bottom{
     justify-content: space-between;
     padding: 50px 0px;
+}
+/* footer */
+footer p{
+    text-align: center;
+}
+footer .container{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 30px 0px;
 }
