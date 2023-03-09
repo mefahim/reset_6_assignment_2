@@ -1,24 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
-.container{
+
+.container {
     max-width: 1190px;
     margin: auto;
 }
-section{
+
+section {
     padding: 50px 0px;
 }
 
-.flex{
+p {
+    color: #727272;
+}
+
+.flex {
     display: flex;
 }
-.py-4{
+
+.py-4 {
     padding: 50px 0px;
 }
+
 .default-btn a {
     text-decoration: none;
     background: #FF900E;
@@ -26,66 +35,144 @@ section{
     padding: 15px 15px;
     border-radius: 8px;
 }
+
 /* header part */
-header{
+header {
     background-color: rgba(255, 144, 14, 0.1);
     padding: 50px 0px;
 }
-nav{
+
+nav {
     justify-content: space-between;
 }
+
 .logo a {
     text-decoration: none;
     font-size: 32px;
     color: #131313;
     font-weight: 700;
 }
+
 .menu a {
     text-decoration: none;
     padding: 0px 20px;
     font-size: 18px;
     color: #424242;
 }
-.hero-section{
+
+.hero-section {
     width: 50%;
     margin: auto;
 }
-.hero-title h2{
+
+.hero-title h2 {
     font-size: 60px;
     text-align: center;
 }
-.hero-discreption p{
+
+.hero-discreption p {
     font-size: 16px;
     padding-top: 20px;
     text-align: center;
 }
-.hero-btn{
+
+.hero-btn {
     padding-top: 40px;
     text-align: center;
 }
-.hero-img img{
+
+.hero-img img {
     width: 100%;
 }
+
 /* features section */
-.features-left{
+.features-left {
     width: 55%;
 }
-.features-left img{
+
+.features-left img {
     width: 90%;
 }
-.features-right{
+
+.features-right {
     width: 45%;
 }
-.features .container{
+
+.features .container {
     align-items: center;
 }
-.features-title{
+
+.features-title {
     width: 70%;
 }
-.features-title h2{
+
+.features-title h2 {
     font-size: 45px;
     padding-bottom: 15px;
 }
-.features-button{
+
+.features-button {
     padding-top: 40px;
+}
+
+/* features you will love */
+.features_you_love_main{
+    justify-content: space-between;
+}
+.feature_you_love_left {
+    width: 48%;
+}
+.feature_you_love_right{
+    width: 50%;
+}
+
+.feature_you_love_left .title {
+    width: 90%;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.feature_you_love_item {
+    padding: 30px 0px;
+}
+
+.main-item {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.51);
+    padding: 20px 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.item-title {
+    padding-bottom: 10px;
+}
+
+.item-discreption {
+    color: #727272;
+}
+.feature_you_love_right img{
+    width: 80%;
+    height: 95%;
+    margin-left: 50px;
+    
+}
+.feature_you_love_btn{
+    background: #FF900E;
+    width: 25%;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 7px;
+}
+.feature_you_love_btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.feature_you_love_right{
+    position: relative;
+}
+.feature_you_love_btn{
+    position: absolute;
+    bottom: 20px;
 }
